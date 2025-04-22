@@ -8,35 +8,35 @@ function Header({ setActiveSection }) {
 
         <div className="flex items-center hover:scale-105 transition-transform duration-300">
           <img src={Logo} alt="Netlab Logo" className="h-28 mr-6" />
-          <span className="text-5xl font-bold">Network Laboratory</span>
+          <span className="text-xl font-bold">Network Laboratory</span>
         </div>
 
         
         <nav className="hidden md:flex space-x-16">
           <button
             onClick={() => setActiveSection("home")}
-            className="text-5xl font-semibold hover:text-gray-400 cursor-pointer"
+            className="text-xl font-semibold hover:text-gray-400 cursor-pointer"
           >
             Home
           </button>
 
           <button
             onClick={() => setActiveSection("sbd")}
-            className="text-5xl font-semibold hover:text-gray-400 cursor-pointer"
+            className="text-xl font-semibold hover:text-gray-400 cursor-pointer"
           >
             SBD
           </button>
 
           <button
             onClick={() => setActiveSection("dmj")}
-            className="text-5xl font-semibold hover:text-gray-400 cursor-pointer"
+            className="text-xl font-semibold hover:text-gray-400 cursor-pointer"
           >
             DMJ
           </button>
 
           <button
             onClick={() => setActiveSection("os")}
-            className="text-5xl font-semibold hover:text-gray-400 cursor-pointer"
+            className="text-xl font-semibold hover:text-gray-400 cursor-pointer"
           >
             OS
           </button>
