@@ -14,8 +14,8 @@ const Topic = ({ image, title, children }) => {
         animate={{ opacity: 1, x: 50 }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
-        <span className="text-8xl font-bold mb-8 text-yellow-400">{title}</span>
-        <p className="text-4xl text-white whitespace-pre-line">{children}</p>
+        <span className="text-2xl font-bold mb-8 text-yellow-400">{title}</span>
+        <p className="text-xl text-white whitespace-pre-line">{children}</p>
       </motion.div>
 
     </div>
