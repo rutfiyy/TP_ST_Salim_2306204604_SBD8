@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/Logo.svg";
 
 function Header({ setActiveSection }) {
   return (
@@ -33,7 +33,7 @@ function Header({ setActiveSection }) {
           >
             DMJ
           </button>
-          
+
           <button
             onClick={() => setActiveSection("os")}
             className="text-5xl font-semibold hover:text-gray-400 cursor-pointer"
