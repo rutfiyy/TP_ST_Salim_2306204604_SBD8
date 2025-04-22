@@ -4,15 +4,15 @@ import Logo from "../assets/Logo.svg";
 function Header({ setActiveSection }) {
   return (
     <header className="bg-black text-white shadow-md fixed top-0 left-0 w-full z-50">
-      <div className="flex items-center justify-between py-6 px-8">
+      <div className="flex items-center justify-between py-2 px-8">
 
         <div className="flex items-center hover:scale-105 transition-transform duration-300">
-          <img src={Logo} alt="Netlab Logo" className="h-28 mr-6" />
+          <img src={Logo} alt="Netlab Logo" className="h-14 mr-3" />
           <span className="text-xl font-bold">Network Laboratory</span>
         </div>
 
         
-        <nav className="hidden md:flex space-x-16">
+        <nav className="hidden md:flex space-x-8">
           <button
             onClick={() => setActiveSection("home")}
             className="text-xl font-semibold hover:text-gray-400 cursor-pointer"
