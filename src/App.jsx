@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Header from "./components/header";
 import Topic from "./components/topic";
 
-import Logo from "./assets/logo.svg";
-import OSLogo from "./assets/oslogo.svg";
-import SBDLogo from "./assets/sbdlogo.svg";
-import DMJLogo from "./assets/dmjlogo.svg";
+import Logo from "./assets/Logo.svg";
+import OSLogo from "./assets/OSLogo.svg";
+import SBDLogo from "./assets/SBDLogo.svg";
+import DMJLogo from "./assets/DMJLogo.svg";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
