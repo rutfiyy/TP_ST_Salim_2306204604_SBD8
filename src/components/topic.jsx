@@ -11,7 +11,7 @@ const Topic = ({ image, title, children }) => {
       <motion.div
         className="flex flex-col items-start max-w-screen-lg p-8"
         initial={{ opacity: 0, x: -500 }}
-        animate={{ opacity: 1, x: 50 }}
+        animate={{ opacity: 1, x: 5 }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
         <span className="text-2xl font-bold mb-4 text-yellow-400">{title}</span>
